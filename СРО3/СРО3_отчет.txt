@@ -6,7 +6,7 @@ OCI (Open Container Initiative) — это организация,
 (Image Spec, Runtime Spec), чтобы они работали
 одинаково везде.
 
-Смотреть screenshots/1.png
+Смотреть screenshots/OCI.png
 
 
 --------------------------------------------------
@@ -22,7 +22,7 @@ OCI (Open Container Initiative) — это организация,
 У образа есть уникальный идентификатор — Digest (хеш
 SHA256), по которому образ можно найти в реестре.
 
-Смотреть screenshots/2.png
+Смотреть screenshots/IMAGES.png
 
 
 --------------------------------------------------
@@ -49,7 +49,7 @@ Docker Engine — это «движок», который управляет
 Цепочка при запуске контейнера:
   docker client → dockerd → containerd → runc → контейнер
 
-Смотреть screenshots/3.png
+Смотреть screenshots/DOCKER_ENGINE.png
 
 
 --------------------------------------------------

@@ -32,7 +32,7 @@
 [Docker Hub: SHA-3](https://hub.docker.com/r/kif111/sro5-sha3) | [Docker Hub: Password](https://hub.docker.com/r/kif111/sro5-password)
 
 ### [СРО6 — Оркестрация (Docker Compose)](./СРО6/)
-Написан `docker-compose.yml`, который объединяет и запускает сразу 5 контейнеров (сайт + 4 программы). Продемонстрирована работа сканера портов и Base64-инструмента внутри единой системы.
+**Написан `docker-compose.yml`, который объединяет и запускает сразу 5 контейнеров (сайт + 4 программы). Продемонстрирована работа сканера портов и Base64-инструмента внутри единой системы.**
 <img width="1840" height="377" alt="compose_up" src="https://github.com/user-attachments/assets/8b6cb9b8-4537-453f-bd8b-1c0a0b3b1fbb" />
 *Рис. 4. Запуск 5 контейнеров одной командой через Docker Compose*
 ---

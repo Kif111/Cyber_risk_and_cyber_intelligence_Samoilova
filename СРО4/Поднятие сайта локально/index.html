@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СРО4 - Nginx & Docker</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            text-align: center;
+            max-width: 600px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        h1 {
+            color: #4facfe;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #e0e0e0;
+            margin-bottom: 30px;
+        }
+        .info-block {
+            text-align: left;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .info-block p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .highlight {
+            color: #4facfe;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Самойлова Камила</h1>
+        <h2>Группа СИБ-32</h2>
+        
+        <div class="info-block">
+            <p><span class="highlight">Задание (СРО4):</span> Поднятие веб-сайта локально через Docker-контейнер.</p>
+            <p><span class="highlight">Что такое Nginx?</span> Это высокопроизводительный веб-сервер и обратный прокси-сервер. Он используется для раздачи статических файлов (как этот сайт), балансировки нагрузки и кэширования. Работает быстро и потребляет мало памяти.</p>
+            <p><span class="highlight">Что сделано:</span> Внутри работающего Docker-контейнера был заменен стандартный файл <code>index.html</code> на эту страницу.</p>
+        </div>
+    </div>
+</body>
+</html>

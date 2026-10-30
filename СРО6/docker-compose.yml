@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # 1. Сайт (СРО4)
+  website:
+    image: kif111/my-website:latest
+    ports:
+      - "8080:80"
+
+  # 2. SHA-3 (СРО5)
+  sha3:
+    image: kif111/sro5-sha3:latest
+    stdin_open: true
+    tty: true
+
+  # 3. Password Checker (СРО5)
+  password:
+    image: kif111/sro5-password:latest
+    stdin_open: true
+    tty: true
+
+  # 4. Port Scanner (СРО6)
+  scanner:
+    image: kif111/sro6-port:latest
+    stdin_open: true
+    tty: true
+
+  # 5. Base64 Tool (СРО6)
+  base64:
+    image: kif111/sro6-b64:latest
+    stdin_open: true
+    tty: true

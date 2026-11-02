@@ -27,7 +27,7 @@
 
 ### [СРО4 — Развертывание веб-сайта](./СРО4/)
 Создан собственный HTML-сайт. Выполнено развертывание двумя способами: локально на ноутбуке и в облаке Amazon Web Services (EC2). 
-[Docker Hub: kif111/my-website](https://hub.docker.com/r/kif111/my-website)
+[Docker Hub: kif111/my-website](https://hub.docker.com/r/kif111/my-website) или docker run -d -p 80:80 --name my-website kif111/my-website:latest
 
 <img width="1920" height="1080" alt="aws_site" src="https://github.com/user-attachments/assets/15ef332d-4c14-44c4-b908-12662f3ec936" />
 
@@ -35,7 +35,8 @@
 
 ### [СРО5 — Программы для Кибербезопасности](./СРО5/)
 Написаны две утилиты: реализация SHA-3 (Кеккак, спонж) и проверка надежности пароля. Каждая упакована в независимый Docker-образ.
-[Docker Hub: SHA-3](https://hub.docker.com/r/kif111/sro5-sha3) | [Docker Hub: Password](https://hub.docker.com/r/kif111/sro5-password)
+[Docker Hub: SHA-3](https://hub.docker.com/r/kif111/sro5-sha3) или docker run -it --rm kif111/sro5-sha3:latest
+[Docker Hub: Password](https://hub.docker.com/r/kif111/sro5-password) или docker run -it --rm kif111/sro5-password:latest
 
 ### [СРО6 — Оркестрация (Docker Compose)](./СРО6/)
 Написан `docker-compose.yml`, который объединяет и запускает сразу 5 контейнеров (сайт + 4 программы). Продемонстрирована работа сканера портов и Base64-инструмента внутри единой системы.

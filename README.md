@@ -35,8 +35,7 @@
 
 ### [СРО5 — Программы для Кибербезопасности](./СРО5/)
 Написаны две утилиты: реализация SHA-3 (Кеккак, спонж) и проверка надежности пароля. Каждая упакована в независимый Docker-образ.
-[Docker Hub: SHA-3](https://hub.docker.com/r/kif111/sro5-sha3) или docker run -it --rm kif111/sro5-sha3:latest
-[Docker Hub: Password](https://hub.docker.com/r/kif111/sro5-password) или docker run -it --rm kif111/sro5-password:latest
+[Docker Hub: SHA-3](https://hub.docker.com/r/kif111/sro5-sha3) или docker run -it --rm kif111/sro5-sha3:latest | [Docker Hub: Password](https://hub.docker.com/r/kif111/sro5-password) или docker run -it --rm kif111/sro5-password:latest
 
 ### [СРО6 — Оркестрация (Docker Compose)](./СРО6/)
 Написан `docker-compose.yml`, который объединяет и запускает сразу 5 контейнеров (сайт + 4 программы). Продемонстрирована работа сканера портов и Base64-инструмента внутри единой системы.
